@@ -1,5 +1,8 @@
 backend:
-  name: test
+   name: github
+   repo: skimkoh/docusaurus-test   # replace with your GitHub repo
+   branch: main                    # or master
+   base_url: http://localhost:8081  # your local decap-server URL
 
 media_folder: "static/img/uploads"   # Where uploaded images are stored
 public_folder: "/img/uploads"
